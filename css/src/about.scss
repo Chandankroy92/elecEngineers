@@ -1,0 +1,42 @@
+#about {
+	background-color: #eeeeee;
+	border-bottom: 2px solid red;
+
+	h4{
+		color: #7c7c7c;
+		text-align: center;
+
+		padding: 17px;
+
+	}
+	p{
+		text-align: left;
+		padding: 36px;
+	}
+	.border1{
+		margin-left: auto;
+    	margin-right: auto;
+	}
+	h1{
+		width: 100%;
+	}
+	.abc{
+		text-align: center;
+    	padding: 17px;
+
+	}
+	.btn{
+		text-align: center;
+	    background-color: blue;
+	    position: absolute;
+	    color: white;
+	}
+}
+
+@media screen and(max-width: 480px){
+    #about{
+    	p{
+    		padding: 0px;
+    	}
+    }
+}

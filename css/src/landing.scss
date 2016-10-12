@@ -1,0 +1,110 @@
+#landing{
+    position: relative;
+	width: 100%;
+    height: 500px;
+    background-image: url('../images/banner.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .smallimage{
+    	width: 500px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+    }
+    .hello{
+    	color: #FFF;
+        position: absolute;
+        top: 50%;
+    }
+    p{
+    	color: #FFF;
+        font-weight: bold;
+        position: absolute;
+        top: 65%;
+    }
+    .work{
+		text-align: center;
+        background-color: #005baf;
+        color: #FFF;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 0px;
+	}
+
+    .welcometext {
+    font-family: 'Lato', sans-serif;
+    font-size:35px;
+    }
+
+    .inelec-text{
+        font-size:35px;
+        font-weight: bold;
+    }
+}
+
+@media screen and(max-width: 480px){
+    #landing{
+        position: relative;
+        width: 100%;
+        height: 150px;
+        background-image: url(../images/banner.jpg);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .smallimage{     
+            width: 118px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+        }
+
+        h1{
+            font-size: 10px;
+        }
+
+        .hello {
+            color: #FFF;
+            position: absolute;
+            top: 40%;
+        }
+
+        p {
+            color: #FFF;
+            font-weight: bold;
+            position: absolute;
+            top: 63%;
+            font-size: 4px;
+        }
+
+        .work {
+            text-align: center;
+            background-color: #005baf;
+            color: #FFF;
+            text-transform: uppercase;
+            position: absolute;
+            bottom: 0px;
+            /* font-size: 11px; */
+            /* margin: 0 auto; */
+            width: 230px;
+            left: 0px;
+            right: 0px;
+        }
+
+        .welcometext {
+            font-family: 'Lato', sans-serif;
+            font-size: 10px;
+        }
+        .inelec-text {
+            font-size: 10px;
+            font-weight: bold;
+        }   
+    }
+}
+
+
+
+
